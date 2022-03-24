@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div{
+    background-image: linear-gradient(to right, lightblue, rgb(70, 153, 173), rgb(112, 74, 182), rgb(117, 76, 165));
+    padding: 3rem;
+    width: 60%;
+}
+
+
+table{
+    width: 80%;
+    text-align: center;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+
+
+thead{
+    background-image: linear-gradient(to right, rgb(119, 112, 182), rgb(89, 77, 119), rgb(119, 112, 182));
+    
+}
+
+th,td{
+    padding: 1.5rem;
+}
+
+tbody{
+    background-color: rgba(256, 256, 256, 0.2);
+}
+
+.cross{
+    background-color: rgba(256, 256, 256, 0.3);
+}
